@@ -6,7 +6,7 @@
 ---
 
 ## Architecture Overview
-![WaViT-CDC Architecture](https://github.com/noureldinalaa/WaViT-CDC/blob/main/WaviT-CDC_Architecture)
+![WaViT-CDC Architecture](https://github.com/noureldinalaa/WaViT-CDC/blob/main/Figures/WaviT-CDC_Architecture)
 
 
 ---
