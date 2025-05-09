@@ -54,6 +54,21 @@ pip install cmake
 pip install dlib -vvv
 ```
 
+
+### 3. Facial Landmark Model
+
+This work uses **Dlib’s 68-point facial landmark detector**.
+
+The pre-trained model file can be downloaded from the official Dlib website:
+
+[shape_predictor_68_face_landmarks.dat.bz2](https://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2)
+
+After downloading, **please extract the file and place it under the `dlib_landmarks/` directory** as follows:
+
+```
+dlib_landmarks/shape_predictor_68_face_landmarks.dat
+```
+
 ---
 ## Training
 The model was trained using **4× NVIDIA RTX A6000 GPUs** with **PyTorch Distributed Data Parallel (DDP)**.
@@ -96,14 +111,6 @@ python wavit_cdc.py \
 | FF++ (HQ)        | Celeb-DF      | 81.62   | 0.258   |
 |                  | WildDeepfake  | 81.23   | 0.266   |
 ---
-#### Facial Landmark Model
-
-This work uses **Dlib’s 68-point facial landmark detector**.
-
-The pre-trained model file can be downloaded from the official Dlib website:
-
-[shape_predictor_68_face_landmarks.dat.bz2](https://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2)
-
 
 
 
