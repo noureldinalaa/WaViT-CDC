@@ -113,7 +113,12 @@ python wavit_cdc.py \
 |                  | WildDeepfake  | 81.23   | 0.266   |
 ---
 
+## Citation
+If you use this code or find it helpful, please cite:
+```bibtex
 
 
+```
 
+---
 
