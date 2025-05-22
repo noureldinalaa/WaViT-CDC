@@ -3,7 +3,7 @@
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
 **WaViT-CDC** is a novel deepfake detection framework that fuses frequency and spatial domain information using a Wavelet-Central Difference Convolution module and a Vision Transformer, connected via a Frequency-Spatial Feature Fusion Attention mechanism. It achieves competitive  cross-dataset generalization performance on Celeb-DF and WildDeepfake.
-
+Paper : https://ieeexplore.ieee.org/document/11007485
 ---
 
 ## Architecture Overview
@@ -117,6 +117,16 @@ python wavit_cdc.py \
 If you use this code or find it helpful, please cite:
 ```bibtex
 
+@ARTICLE{11007485,
+  author={Badr, Nour Eldin Alaa and Nebel, Jean-Christophe and Greenhill, Darrel and Liang, Xing},
+  journal={IEEE Open Journal of Signal Processing}, 
+  title={WaViT-CDC: Wavelet Vision Transformer with Central Difference Convolutions for Spatial-Frequency Deepfake Detection}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-10},
+  keywords={Feature extraction;Deepfakes;Frequency-domain analysis;Discrete wavelet transforms;Perturbation methods;Computer vision;Transformers;Convolution;Computational modeling;Wavelet analysis;Deepfake Detection;Central Difference Convolutions;Vision Transformer;Spatial-Frequency analysis;Discrete Wavelet Transform;Subtle Perturbations;Cross-Dataset Generalization},
+  doi={10.1109/OJSP.2025.3571679}}
 
 ```
 
